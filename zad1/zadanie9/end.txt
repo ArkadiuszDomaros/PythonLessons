@@ -1,0 +1,264 @@
+Teams: raptors
+Wins: 33
+Losses: 12
+Win Percentage: .733
+Games Behind: 0
+Conference Record: 22 - 7
+Division Record: 5 - 3
+Home Record: 18 - 4
+Away Record: 15 - 8
+Last Ten: 8 - 2
+Streak: W5
+
+Teams: bucks
+Wins: 31
+Losses: 12
+Win Percentage: .721
+Games Behind: 1
+Conference Record: 21 - 7
+Division Record: 8 - 1
+Home Record: 20 - 4
+Away Record: 11 - 8
+Last Ten: 8 - 2
+Streak: W2
+
+Teams: pacers
+Wins: 29
+Losses: 14
+Win Percentage: .674
+Games Behind: 3
+Conference Record: 22 - 7
+Division Record: 7 - 2
+Home Record: 15 - 5
+Away Record: 14 - 9
+Last Ten: 8 - 2
+Streak: W2
+
+Teams: sixers
+Wins: 29
+Losses: 16
+Win Percentage: .644
+Games Behind: 4
+Conference Record: 19 - 13
+Division Record: 5 - 6
+Home Record: 19 - 4
+Away Record: 10 - 12
+Last Ten: 7 - 3
+Streak: W2
+
+Teams: celtics
+Wins: 25
+Losses: 18
+Win Percentage: .581
+Games Behind: 7
+Conference Record: 17 - 10
+Division Record: 6 - 3
+Home Record: 15 - 5
+Away Record: 10 - 13
+Last Ten: 5 - 5
+Streak: L3
+
+Teams: heat
+Wins: 21
+Losses: 21
+Win Percentage: .500
+Games Behind: 10.5
+Conference Record: 11 - 15
+Division Record: 3 - 8
+Home Record: 11 - 12
+Away Record: 10 - 9
+Last Ten: 5 - 5
+Streak: L1
+
+Teams: nets
+Wins: 22
+Losses: 23
+Win Percentage: .489
+Games Behind: 11
+Conference Record: 16 - 12
+Division Record: 6 - 4
+Home Record: 12 - 11
+Away Record: 10 - 12
+Last Ten: 6 - 4
+Streak: W1
+
+Teams: hornets
+Wins: 20
+Losses: 23
+Win Percentage: .465
+Games Behind: 12
+Conference Record: 17 - 12
+Division Record: 6 - 2
+Home Record: 14 - 8
+Away Record: 6 - 15
+Last Ten: 4 - 6
+Streak: W1
+
+Teams: magic
+Wins: 19
+Losses: 24
+Win Percentage: .442
+Games Behind: 13
+Conference Record: 13 - 10
+Division Record: 3 - 4
+Home Record: 12 - 11
+Away Record: 7 - 13
+Last Ten: 5 - 5
+Streak: W2
+
+Teams: pistons
+Wins: 18
+Losses: 24
+Win Percentage: .429
+Games Behind: 13.5
+Conference Record: 12 - 16
+Division Record: 4 - 4
+Home Record: 11 - 10
+Away Record: 7 - 14
+Last Ten: 2 - 8
+Streak: L1
+
+Teams: wizards
+Wins: 18
+Losses: 26
+Win Percentage: .409
+Games Behind: 14.5
+Conference Record: 11 - 17
+Division Record: 5 - 4
+Home Record: 13 - 8
+Away Record: 5 - 18
+Last Ten: 5 - 5
+Streak: L1
+
+Teams: hawks
+Wins: 14
+Losses: 30
+Win Percentage: .318
+Games Behind: 18.5
+Conference Record: 10 - 21
+Division Record: 5 - 4
+Home Record: 8 - 11
+Away Record: 6 - 19
+Last Ten: 4 - 6
+Streak: W1
+
+Teams: knicks
+Wins: 10
+Losses: 33
+Win Percentage: .233
+Games Behind: 22
+Conference Record: 6 - 24
+Division Record: 2 - 8
+Home Record: 4 - 14
+Away Record: 6 - 19
+Last Ten: 1 - 9
+Streak: L4
+
+Teams: bulls
+Wins: 10
+Losses: 34
+Win Percentage: .227
+Games Behind: 22.5
+Conference Record: 7 - 18
+Division Record: 2 - 7
+Home Record: 5 - 16
+Away Record: 5 - 18
+Last Ten: 1 - 9
+Streak: L8
+
+Teams: cavaliers
+Wins: 9
+Losses: 35
+Win Percentage: .205
+Games Behind: 23.5
+Conference Record: 7 - 22
+Division Record: 1 - 8
+Home Record: 5 - 17
+Away Record: 4 - 18
+Last Ten: 1 - 9
+Streak: W1
+
+Teams: warriors
+Wins: 30
+Losses: 14
+Win Percentage: .682
+Games Behind: 0
+Conference Record: 18 - 10
+Division Record: 6 - 2
+Home Record: 17 - 6
+Away Record: 13 - 8
+Last Ten: 7 - 3
+Streak: W5
+
+Teams: nuggets
+Wins: 29
+Losses: 14
+Win Percentage: .674
+Games Behind: 0.5
+Conference Record: 18 - 9
+Division Record: 6 - 0
+Home Record: 18 - 4
+Away Record: 11 - 10
+Last Ten: 7 - 3
+Streak: L1
+
+Teams: thunder
+Wins: 26
+Losses: 17
+Win Percentage: .605
+Games Behind: 3.5
+Conference Record: 16 - 13
+Division Record: 3 - 4
+Home Record: 14 - 6
+Away Record: 12 - 11
+Last Ten: 5 - 5
+Streak: L1
+
+Teams: rockets
+Wins: 25
+Losses: 18
+Win Percentage: .581
+Games Behind: 4.5
+Conference Record: 16 - 12
+Division Record: 6 - 4
+Home Record: 16 - 6
+Away Record: 9 - 12
+Last Ten: 7 - 3
+Streak: W1
+
+Teams: blazers
+Wins: 26
+Losses: 19
+Win Percentage: .578
+Games Behind: 4.5
+Conference Record: 14 - 16
+Division Record: 2 - 6
+Home Record: 18 - 7
+Away Record: 8 - 12
+Last Ten: 6 - 4
+Streak: L2
+
+Teams: clippers
+Wins: 24
+Losses: 19
+Win Percentage: .558
+Games Behind: 5.5
+Conference Record: 17 - 13
+Division Record: 7 - 1
+Home Record: 14 - 8
+Away Record: 10 - 11
+Last Ten: 5 - 5
+Streak: L3
+
+Teams: spurs
+Wins: 25
+Losses: 20
+Win Percentage: .556
+Games Behind: 5.5
+Conference Record: 18 - 14
+Division Record: 4 - 5
+Home Record: 18 - 6
+Away Record: 7 - 14
+Last Ten: 6 - 4
+Streak: L2
+

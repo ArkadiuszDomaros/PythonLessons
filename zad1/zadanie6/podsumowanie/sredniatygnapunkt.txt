@@ -1,0 +1,6 @@
+Placowka nr: 1 Tydzien 1: 49250.0
+Placowka nr: 1 Tydzien 2: 69230.76923076923
+Placowka nr: 2 Tydzien 1: 39750.0
+Placowka nr: 2 Tydzien 2: 30461.53846153846
+Placowka nr: 3 Tydzien 1: 31875.0
+Placowka nr: 3 Tydzien 2: 27846.153846153848

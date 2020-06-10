@@ -1,0 +1,2045 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    
+    
+    
+    
+    
+    
+    
+
+    <title>NBA Standings  | NBA.com</title>
+    <link rel="canonical" href="https://www.nba.com/standings" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      [{"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":"https://www.nba.com/standings","headline":"NBA Standings","description":"","datePublished":"2019-01-16T12:40:05.112Z","dateModified":"2019-01-16T12:40:05.112Z","about":{"@context":"http://schema.org","@type":"SportsEvent","name":"NBA Standings","startDate":"2019-01-16T12:40:05.112Z","location":{"@type":"Place","name":"NBA.com"}},"author":{"@type":"Person","name":"NBA  Writer"},"publisher":{"@type":"Organization","name":"NBA.com","logo":{"@type":"ImageObject","url":"https://secure.nba.com/assets/amp/include/images/nba-logo.png","width":180,"height":60}},"image":{"@type":"ImageObject","url":"http://www.nba.com/video/channels/tnt_overtime/2013/04/17/20130416-inside-east-standings.nba"}}]
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <!--Styles-->
+    <style amp-custom>
+      /* any custom style goes here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+a {
+  color: #2199e8;
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+h1 {
+  color: black;
+  line-height: 120%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+h1.headline {
+  font-size: 30px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+#pageContainer {
+  max-width: 400px;
+  min-width: 320px;
+  padding: 0 10px;
+  margin: 0 auto;
+  border: solid  #CCD0D3 thin;
+  font-family: "Flama-Basic", sans-serif;
+  box-sizing: border-box;
+  font-size: inherit;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  text-align: left;
+}
+
+.adContainer {
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+
+.small-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.small-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+/*======================================
+=            AMP Components            =
+======================================*/
+amp-img {
+  text-align: center;
+  margin: 0 auto;
+}
+amp-img.fallback {
+  background-color: #ffffff;
+}
+
+amp-video,
+amp-vimeo,
+amp-soundcloud,
+amp-twitter,
+amp-youtube {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/*==============================
+=            Images            =
+==============================*/
+.imageContainer {
+  margin: 10px 0;
+}
+
+.imageContainer .caption {
+  font-size: 13px;
+  margin: 10px 0;
+}
+.caption{
+  color: #586066;
+  font-size: 15px;
+  text-align: left;
+  line-height: 150%;
+}
+
+/*===================================
+=            Pull Quotes            =
+===================================*/
+blockquote {
+  border-left: 2px solid #006BB6;
+  color: #66737C;
+  padding-left: 30px;
+  margin-left: 0px;
+}
+
+.pullquote {
+  margin: 30px 25px;
+}
+.pullquote h2 {
+  color: black;
+  font: 700 italic 36px/54px "Flama-Bold", sans-serif;
+  margin: 24px 0;
+  font-size: 36px;
+}
+.pullquote::before {
+  content: "“";
+  background: url(https://www.nba.com/themes/custom/league/assets/images/quotation-marks.png) 0 0;
+  display: block;
+  width: 51px;
+  height: 40px;
+  text-indent: -9999px;
+  margin-bottom: 30px;
+}
+.pullquote-author {
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/*==============================
+=            Tables            =
+==============================*/
+.table {
+  width: 100%;
+  overflow-x: scroll;
+}
+table tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+table thead, table tbody, table tfoot {
+  border: 1px solid #f1f1f1;
+  background-color: #fefefe;
+}
+table thead {
+  background: #f8f8f8;
+  color: #0a0a0a;
+}
+
+/*================================
+=            Main Nav            =
+================================*/
+ .nav {
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 20000;
+  min-height: 50px;
+}
+
+.nav a#logo {
+  display: block;
+  margin-bottom: -5px;
+}
+
+#topband {
+  float: right;
+  background-color:#006BB6;
+  height: 40px;
+  width: 100%;
+}
+#close {
+  float: right;
+  margin-top: 4px;
+}
+
+/*======================================
+=            Hamburger Menu            =
+======================================*/
+#logoalt {
+  display: none;
+}
+
+#hb_menu ul {
+  list-style-type: none;
+  line-height: 2.0;
+  padding: 40px;
+  font-family: "Flama-Basic", sans-serif;
+}
+.hamburger-wrapper { 
+  width: 50px; 
+  height: 40px; 
+  display: inline-block; 
+  float: right; 
+  overflow: hidden; 
+}
+.hamburger-wrapper span, .hamburger-wrapper span:before, .hamburger-wrapper span:after {
+  height: 3px;
+  width: 22px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: '';
+}
+.hamburger-wrapper span {
+  right: 24px;
+  top: 20px;
+}
+.hamburger-wrapper span:before {
+  top: -6px;
+}
+.hamburger-wrapper span:after {
+  bottom: -6px;
+}
+
+/*==============================
+=            Footer            =
+==============================*/
+.block-homepagefooter p{
+  clear: both;
+  font-size: 9px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#block-homepagefooter amp-img {
+  max-width: 75px;
+  margin-top: 10px;
+}
+#block-homepagefooter a.nbaAdChoices {
+  cursor: default;
+  display: inline-block;
+  padding-right: 16px;
+  background: url(https://i2.cdn.turner.com/nba/nba/.element/img/2.0/sect/adChoices/logo_ad_choices_footer.png) right 1px no-repeat;
+}
+#block-homepagefooter {
+  padding-bottom: 23px;
+}
+
+/*==============================
+=            Aria              =
+==============================*/
+.show-for-sr, .show-on-focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+
+      
+      
+      
+        #standings_container {
+ position: relative;
+ overflow: hidden;
+}
+
+#standings_container .standings_teamsort {
+  margin-bottom: 20px;
+}
+
+#standings_container .standings_teamsort button {
+  background: #fff;
+  color: #1D428A;
+  border: 2px solid #1D428A;
+  text-transform: uppercase;
+  padding-top: 1em;
+  display: inline-block;
+  padding: 0.85em 1em;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#standings_container .standings_teamsort a {
+  width: 49.5%;
+  display: inline-block;;
+}
+
+#standings_container .standings_teamsort a:last-child {
+  margin-left: -5px;
+}
+
+#standings_container .standings_teamsort button.active {
+  background: #1D428A;
+  color: #fff;
+}
+
+#standings_container .standings_teamsort .button-left {
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+}
+
+#standings_container .standings_teamsort .button-right {
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+  }
+
+.standings__header {
+  background-color: #0B153C;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2em;
+  padding: 0 0.375rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+#standings_container .standings_table_wrapper {
+  margin-left: 4.23em;
+  overflow-x: scroll;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: auto!important;
+}
+
+#standings_container.division .standings_table_wrapper {
+  margin-left: 5.4em;
+}
+
+#standings_container table.standings {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#standings_container table.standings * {
+  border: 0
+}
+
+#standings_container table.standings thead th,
+#standings_container table.standings thead th.fixed-table-col {
+  color: #0B5BE1;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+  z-index: 1;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+#standings_container table.standings tr {
+  background-color: #fff;
+}
+
+#standings_container table.standings td,
+#standings_container table.standings tbody tr:last-child .fixed-table-col {
+  border: 1px solid #e6e8ea;
+  border-left:0;
+}
+
+#standings_container table.standings .fixed-table-col {
+  position: absolute; 
+  width: 5.5em; 
+  left: 0;
+  top: auto;
+  margin-top: -.3px; /*compensate for top border*/
+  border-bottom: 0;
+}
+
+#standings_container.division table.standings .fixed-table-col {
+  width: 7em;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#standings_container table.standings tr:nth-child(8) td {
+  border-bottom: 2px solid #ED074F;
+  z-index: 3;
+}
+
+#standings_container td, 
+#standings_container th {
+  margin: 0;
+  white-space: nowrap;
+  padding: 10px 17px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#standings_container td.team {
+  padding: 10px 0;
+}
+
+#standings_container td.team span {
+  margin-left: -3px;
+}
+
+#standings_container td.team img,
+#standings_container td.team amp-img {
+  max-width: 30px;
+  vertical-align: middle;
+  margin-left: -1px;
+}
+
+#standings_container td.team a {
+  color: #000;
+}
+
+#standings_container .legend {
+  font-size: 12px;
+}
+      
+      
+    </style>
+</head>
+
+<body>
+
+<amp-analytics type="adobeanalytics_nativeConfig">
+  <script type="application/json">{"requests": {"base": "https://secure.nba.com","iframeMessage": "https://secure.nba.com/assets/amp/include/analytics/stats.html?campaign=${queryParam(cid)}&pageURL=https://www.nba.com/amp/league/standings&ref=${documentReferrer}"},"vars":{"host": "secure.nba.com"},"extraUrlParams":{"pageName": "nba:standings","c30": "nba:league","c9": "nba:standings","c67": "NBA Standings","c68":"","c69":"","c72":"AMP"}}</script>
+</amp-analytics>
+
+  <amp-sidebar id="sidebar"
+    layout="nodisplay"
+    side="right">
+    <div id="topband">
+      <div id="close">
+        <amp-img class="amp-close-image"
+          src="https://secure.nba.com/assets/amp/include/images/close-x.png"
+          width="30"
+          height="30"
+          alt="close sidebar"
+          on="tap:sidebar.close"
+          role="button"
+          tabindex="0"></amp-img>
+      </div>
+    </div>
+    <div id="hb_menu">
+      <ul>
+      
+        <li> <a href="http://www.nba.com/games">Today&#x27;s Games</a> </li>
+      
+        <li> <a href="http://www.nba.com/news">Top Stories</a> </li>
+      
+        <li> <a href="http://www.nba.com/standings">Standings</a> </li>
+      
+        <li> <a href="http://www.nba.com/teams">Teams Page</a> </li>
+      
+        <li> <a href="http://www.nba.com/leaguepass">League Pass</a> </li>
+      
+        <li> <a href="http://www.nba.com/draft">Draft</a> </li>
+      
+      </ul>
+    </div>
+  </amp-sidebar>
+
+  <div id="pageContainer">
+    <nav class="nav">
+      <div class="hamburger-wrapper" on="tap:sidebar.toggle" tabindex="0" role="button">
+        <span class="nav-menu__hamburger"></span>
+      </div>
+      <a tabindex="1" href="http://www.nba.com" id="logo" title="Home" rel="home">
+        <amp-img src="https://secure.nba.com/assets/amp/include/images/nba-logo.png" height=60 width=180 alt="Site Logo" title="Site Logo"></amp-img>
+        <span id="logoalt">NBA dot com</span>
+      </a>
+    </nav>
+    
+    
+    
+      <h1 class="headline">NBA Standings</h1>
+
+
+
+<div class="adContainer">
+
+  <amp-ad
+    width="320"
+    height="50"
+    type="doubleclick"
+    data-method="fastLane"
+    data-slot="/8663477/NBA/standings"
+    data-account="11078"
+    data-pos="atf"
+    data-kw="NBA/topic/stories"
+    json='{"targeting":{"pos":"bnr_atf_01","appname":"googleamp","inventory":{"section":"standings","site":"NBA",'>
+  </amp-ad>
+
+</div>
+
+
+<div id="standings_container" >
+  <div class="expanded button-group standings_teamsort">
+    <a href="/amp/league/standings" title="Conference Standings">
+      <button aria-label="Show standings by conference" aria-sort="" 
+        class="button button-left active" 
+        title="Conference Standings">Conf.</button>
+    </a>
+    <a href="/amp/league/standings/division" title="Division Standings">
+      <button aria-label="Show standings by division" aria-sort="" 
+      class="button button-right " 
+      title="Division Standings">Div.</button>
+    </a>
+  </div>
+
+  
+    
+      <div class="standings__header">Eastern Conference</div>
+
+      <div class="standings_table_wrapper">
+        
+         <!-- Standings -->
+          <table class="standings">
+            <thead>
+              <tr>
+                <th class="columns fixed-table-col" scope="col">
+                    <span class="show-for-sr">Teams</span>
+                    <span aria-hidden="true">Team</span>      
+                </th>
+                <th class="columns" scope="col">
+  <span class="show-for-sr">Wins</span>
+  <span aria-hidden="true">W</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Losses</span>
+  <span aria-hidden="true">L</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Win Percentage</span>
+  <span aria-hidden="true">Win%</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Games Behind</span>
+  <span aria-hidden="true">GB</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Conference Record</span>
+  <span aria-hidden="true">Conf</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Division Record</span>
+  <span aria-hidden="true">Div</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Home Record</span>
+  <span aria-hidden="true">Home</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Away Record</span>
+  <span aria-hidden="true">Road</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Last Ten</span>
+  <span aria-hidden="true">L10</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Streak</span>
+  <span aria-hidden="true">Streak</span>
+</th>
+ 
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/raptors">
+      <span>1</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/TOR_mdpi.png" alt="Raptors Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/TOR_mdpi.png" alt="Raptors" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>TOR</span>
+    </a>
+  </td>
+  <td>
+    <span>33</span>
+  </td>
+  <td>
+    <span>12</span>
+  </td>
+  <td>
+    <span>.733</span>
+  </td>
+  <td>
+    <span>0</span>
+  </td>
+  <td>
+    <span>22 - 7</span>
+  </td>
+  <td>
+    <span>5 - 3</span>
+  </td>
+  <td>
+    <span>18 - 4</span>
+  </td>
+  <td>
+    <span>15 - 8</span>
+  </td>
+  <td>
+    <span>8 - 2</span>
+  </td>
+  <td>
+    <span>W5</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/bucks">
+      <span>2</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MIL_mdpi.png" alt="Bucks Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MIL_mdpi.png" alt="Bucks" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>MIL</span>
+    </a>
+  </td>
+  <td>
+    <span>31</span>
+  </td>
+  <td>
+    <span>12</span>
+  </td>
+  <td>
+    <span>.721</span>
+  </td>
+  <td>
+    <span>1</span>
+  </td>
+  <td>
+    <span>21 - 7</span>
+  </td>
+  <td>
+    <span>8 - 1</span>
+  </td>
+  <td>
+    <span>20 - 4</span>
+  </td>
+  <td>
+    <span>11 - 8</span>
+  </td>
+  <td>
+    <span>8 - 2</span>
+  </td>
+  <td>
+    <span>W2</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/pacers">
+      <span>3</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/IND_mdpi.png" alt="Pacers Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/IND_mdpi.png" alt="Pacers" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>IND</span>
+    </a>
+  </td>
+  <td>
+    <span>29</span>
+  </td>
+  <td>
+    <span>14</span>
+  </td>
+  <td>
+    <span>.674</span>
+  </td>
+  <td>
+    <span>3</span>
+  </td>
+  <td>
+    <span>22 - 7</span>
+  </td>
+  <td>
+    <span>7 - 2</span>
+  </td>
+  <td>
+    <span>15 - 5</span>
+  </td>
+  <td>
+    <span>14 - 9</span>
+  </td>
+  <td>
+    <span>8 - 2</span>
+  </td>
+  <td>
+    <span>W2</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/sixers">
+      <span>4</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/PHI_mdpi.png" alt="76ers Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/PHI_mdpi.png" alt="76ers" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>PHI</span>
+    </a>
+  </td>
+  <td>
+    <span>29</span>
+  </td>
+  <td>
+    <span>16</span>
+  </td>
+  <td>
+    <span>.644</span>
+  </td>
+  <td>
+    <span>4</span>
+  </td>
+  <td>
+    <span>19 - 13</span>
+  </td>
+  <td>
+    <span>5 - 6</span>
+  </td>
+  <td>
+    <span>19 - 4</span>
+  </td>
+  <td>
+    <span>10 - 12</span>
+  </td>
+  <td>
+    <span>7 - 3</span>
+  </td>
+  <td>
+    <span>W2</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/celtics">
+      <span>5</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/BOS_mdpi.png" alt="Celtics Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/BOS_mdpi.png" alt="Celtics" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>BOS</span>
+    </a>
+  </td>
+  <td>
+    <span>25</span>
+  </td>
+  <td>
+    <span>18</span>
+  </td>
+  <td>
+    <span>.581</span>
+  </td>
+  <td>
+    <span>7</span>
+  </td>
+  <td>
+    <span>17 - 10</span>
+  </td>
+  <td>
+    <span>6 - 3</span>
+  </td>
+  <td>
+    <span>15 - 5</span>
+  </td>
+  <td>
+    <span>10 - 13</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>L3</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/heat">
+      <span>6</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MIA_mdpi.png" alt="Heat Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MIA_mdpi.png" alt="Heat" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>MIA</span>
+    </a>
+  </td>
+  <td>
+    <span>21</span>
+  </td>
+  <td>
+    <span>21</span>
+  </td>
+  <td>
+    <span>.500</span>
+  </td>
+  <td>
+    <span>10.5</span>
+  </td>
+  <td>
+    <span>11 - 15</span>
+  </td>
+  <td>
+    <span>3 - 8</span>
+  </td>
+  <td>
+    <span>11 - 12</span>
+  </td>
+  <td>
+    <span>10 - 9</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/nets">
+      <span>7</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/BKN_mdpi.png" alt="Nets Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/BKN_mdpi.png" alt="Nets" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>BKN</span>
+    </a>
+  </td>
+  <td>
+    <span>22</span>
+  </td>
+  <td>
+    <span>23</span>
+  </td>
+  <td>
+    <span>.489</span>
+  </td>
+  <td>
+    <span>11</span>
+  </td>
+  <td>
+    <span>16 - 12</span>
+  </td>
+  <td>
+    <span>6 - 4</span>
+  </td>
+  <td>
+    <span>12 - 11</span>
+  </td>
+  <td>
+    <span>10 - 12</span>
+  </td>
+  <td>
+    <span>6 - 4</span>
+  </td>
+  <td>
+    <span>W1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/hornets">
+      <span>8</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/CHA_mdpi.png" alt="Hornets Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/CHA_mdpi.png" alt="Hornets" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>CHA</span>
+    </a>
+  </td>
+  <td>
+    <span>20</span>
+  </td>
+  <td>
+    <span>23</span>
+  </td>
+  <td>
+    <span>.465</span>
+  </td>
+  <td>
+    <span>12</span>
+  </td>
+  <td>
+    <span>17 - 12</span>
+  </td>
+  <td>
+    <span>6 - 2</span>
+  </td>
+  <td>
+    <span>14 - 8</span>
+  </td>
+  <td>
+    <span>6 - 15</span>
+  </td>
+  <td>
+    <span>4 - 6</span>
+  </td>
+  <td>
+    <span>W1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/magic">
+      <span>9</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/ORL_mdpi.png" alt="Magic Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/ORL_mdpi.png" alt="Magic" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>ORL</span>
+    </a>
+  </td>
+  <td>
+    <span>19</span>
+  </td>
+  <td>
+    <span>24</span>
+  </td>
+  <td>
+    <span>.442</span>
+  </td>
+  <td>
+    <span>13</span>
+  </td>
+  <td>
+    <span>13 - 10</span>
+  </td>
+  <td>
+    <span>3 - 4</span>
+  </td>
+  <td>
+    <span>12 - 11</span>
+  </td>
+  <td>
+    <span>7 - 13</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>W2</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/pistons">
+      <span>10</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/DET_mdpi.png" alt="Pistons Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/DET_mdpi.png" alt="Pistons" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>DET</span>
+    </a>
+  </td>
+  <td>
+    <span>18</span>
+  </td>
+  <td>
+    <span>24</span>
+  </td>
+  <td>
+    <span>.429</span>
+  </td>
+  <td>
+    <span>13.5</span>
+  </td>
+  <td>
+    <span>12 - 16</span>
+  </td>
+  <td>
+    <span>4 - 4</span>
+  </td>
+  <td>
+    <span>11 - 10</span>
+  </td>
+  <td>
+    <span>7 - 14</span>
+  </td>
+  <td>
+    <span>2 - 8</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/wizards">
+      <span>11</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/WAS_mdpi.png" alt="Wizards Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/WAS_mdpi.png" alt="Wizards" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>WAS</span>
+    </a>
+  </td>
+  <td>
+    <span>18</span>
+  </td>
+  <td>
+    <span>26</span>
+  </td>
+  <td>
+    <span>.409</span>
+  </td>
+  <td>
+    <span>14.5</span>
+  </td>
+  <td>
+    <span>11 - 17</span>
+  </td>
+  <td>
+    <span>5 - 4</span>
+  </td>
+  <td>
+    <span>13 - 8</span>
+  </td>
+  <td>
+    <span>5 - 18</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/hawks">
+      <span>12</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/ATL_mdpi.png" alt="Hawks Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/ATL_mdpi.png" alt="Hawks" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>ATL</span>
+    </a>
+  </td>
+  <td>
+    <span>14</span>
+  </td>
+  <td>
+    <span>30</span>
+  </td>
+  <td>
+    <span>.318</span>
+  </td>
+  <td>
+    <span>18.5</span>
+  </td>
+  <td>
+    <span>10 - 21</span>
+  </td>
+  <td>
+    <span>5 - 4</span>
+  </td>
+  <td>
+    <span>8 - 11</span>
+  </td>
+  <td>
+    <span>6 - 19</span>
+  </td>
+  <td>
+    <span>4 - 6</span>
+  </td>
+  <td>
+    <span>W1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/knicks">
+      <span>13</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/NYK_mdpi.png" alt="Knicks Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/NYK_mdpi.png" alt="Knicks" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>NYK</span>
+    </a>
+  </td>
+  <td>
+    <span>10</span>
+  </td>
+  <td>
+    <span>33</span>
+  </td>
+  <td>
+    <span>.233</span>
+  </td>
+  <td>
+    <span>22</span>
+  </td>
+  <td>
+    <span>6 - 24</span>
+  </td>
+  <td>
+    <span>2 - 8</span>
+  </td>
+  <td>
+    <span>4 - 14</span>
+  </td>
+  <td>
+    <span>6 - 19</span>
+  </td>
+  <td>
+    <span>1 - 9</span>
+  </td>
+  <td>
+    <span>L4</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/bulls">
+      <span>14</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/CHI_mdpi.png" alt="Bulls Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/CHI_mdpi.png" alt="Bulls" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>CHI</span>
+    </a>
+  </td>
+  <td>
+    <span>10</span>
+  </td>
+  <td>
+    <span>34</span>
+  </td>
+  <td>
+    <span>.227</span>
+  </td>
+  <td>
+    <span>22.5</span>
+  </td>
+  <td>
+    <span>7 - 18</span>
+  </td>
+  <td>
+    <span>2 - 7</span>
+  </td>
+  <td>
+    <span>5 - 16</span>
+  </td>
+  <td>
+    <span>5 - 18</span>
+  </td>
+  <td>
+    <span>1 - 9</span>
+  </td>
+  <td>
+    <span>L8</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/cavaliers">
+      <span>15</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/CLE_mdpi.png" alt="Cavaliers Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/CLE_mdpi.png" alt="Cavaliers" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>CLE</span>
+    </a>
+  </td>
+  <td>
+    <span>9</span>
+  </td>
+  <td>
+    <span>35</span>
+  </td>
+  <td>
+    <span>.205</span>
+  </td>
+  <td>
+    <span>23.5</span>
+  </td>
+  <td>
+    <span>7 - 22</span>
+  </td>
+  <td>
+    <span>1 - 8</span>
+  </td>
+  <td>
+    <span>5 - 17</span>
+  </td>
+  <td>
+    <span>4 - 18</span>
+  </td>
+  <td>
+    <span>1 - 9</span>
+  </td>
+  <td>
+    <span>W1</span>
+  </td>
+</tr>
+              </tbody>
+          </table>
+        
+        
+        
+        
+
+      </div>
+    
+      <div class="standings__header">Western Conference</div>
+
+      <div class="standings_table_wrapper">
+        
+         <!-- Standings -->
+          <table class="standings">
+            <thead>
+              <tr>
+                <th class="columns fixed-table-col" scope="col">
+                    <span class="show-for-sr">Teams</span>
+                    <span aria-hidden="true">Team</span>      
+                </th>
+                <th class="columns" scope="col">
+  <span class="show-for-sr">Wins</span>
+  <span aria-hidden="true">W</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Losses</span>
+  <span aria-hidden="true">L</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Win Percentage</span>
+  <span aria-hidden="true">Win%</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Games Behind</span>
+  <span aria-hidden="true">GB</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Conference Record</span>
+  <span aria-hidden="true">Conf</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Division Record</span>
+  <span aria-hidden="true">Div</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Home Record</span>
+  <span aria-hidden="true">Home</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Away Record</span>
+  <span aria-hidden="true">Road</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Last Ten</span>
+  <span aria-hidden="true">L10</span>
+</th>
+<th class="columns" scope="col">
+  <span class="show-for-sr">Streak</span>
+  <span aria-hidden="true">Streak</span>
+</th>
+ 
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/warriors">
+      <span>1</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/GSW_mdpi.png" alt="Warriors Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/GSW_mdpi.png" alt="Warriors" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>GSW</span>
+    </a>
+  </td>
+  <td>
+    <span>30</span>
+  </td>
+  <td>
+    <span>14</span>
+  </td>
+  <td>
+    <span>.682</span>
+  </td>
+  <td>
+    <span>0</span>
+  </td>
+  <td>
+    <span>18 - 10</span>
+  </td>
+  <td>
+    <span>6 - 2</span>
+  </td>
+  <td>
+    <span>17 - 6</span>
+  </td>
+  <td>
+    <span>13 - 8</span>
+  </td>
+  <td>
+    <span>7 - 3</span>
+  </td>
+  <td>
+    <span>W5</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/nuggets">
+      <span>2</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/DEN_mdpi.png" alt="Nuggets Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/DEN_mdpi.png" alt="Nuggets" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>DEN</span>
+    </a>
+  </td>
+  <td>
+    <span>29</span>
+  </td>
+  <td>
+    <span>14</span>
+  </td>
+  <td>
+    <span>.674</span>
+  </td>
+  <td>
+    <span>0.5</span>
+  </td>
+  <td>
+    <span>18 - 9</span>
+  </td>
+  <td>
+    <span>6 - 0</span>
+  </td>
+  <td>
+    <span>18 - 4</span>
+  </td>
+  <td>
+    <span>11 - 10</span>
+  </td>
+  <td>
+    <span>7 - 3</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/thunder">
+      <span>3</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/OKC_mdpi.png" alt="Thunder Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/OKC_mdpi.png" alt="Thunder" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>OKC</span>
+    </a>
+  </td>
+  <td>
+    <span>26</span>
+  </td>
+  <td>
+    <span>17</span>
+  </td>
+  <td>
+    <span>.605</span>
+  </td>
+  <td>
+    <span>3.5</span>
+  </td>
+  <td>
+    <span>16 - 13</span>
+  </td>
+  <td>
+    <span>3 - 4</span>
+  </td>
+  <td>
+    <span>14 - 6</span>
+  </td>
+  <td>
+    <span>12 - 11</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/rockets">
+      <span>4</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/HOU_mdpi.png" alt="Rockets Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/HOU_mdpi.png" alt="Rockets" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>HOU</span>
+    </a>
+  </td>
+  <td>
+    <span>25</span>
+  </td>
+  <td>
+    <span>18</span>
+  </td>
+  <td>
+    <span>.581</span>
+  </td>
+  <td>
+    <span>4.5</span>
+  </td>
+  <td>
+    <span>16 - 12</span>
+  </td>
+  <td>
+    <span>6 - 4</span>
+  </td>
+  <td>
+    <span>16 - 6</span>
+  </td>
+  <td>
+    <span>9 - 12</span>
+  </td>
+  <td>
+    <span>7 - 3</span>
+  </td>
+  <td>
+    <span>W1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/blazers">
+      <span>5</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/POR_mdpi.png" alt="Trail Blazers Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/POR_mdpi.png" alt="Trail Blazers" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>POR</span>
+    </a>
+  </td>
+  <td>
+    <span>26</span>
+  </td>
+  <td>
+    <span>19</span>
+  </td>
+  <td>
+    <span>.578</span>
+  </td>
+  <td>
+    <span>4.5</span>
+  </td>
+  <td>
+    <span>14 - 16</span>
+  </td>
+  <td>
+    <span>2 - 6</span>
+  </td>
+  <td>
+    <span>18 - 7</span>
+  </td>
+  <td>
+    <span>8 - 12</span>
+  </td>
+  <td>
+    <span>6 - 4</span>
+  </td>
+  <td>
+    <span>L2</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/clippers">
+      <span>6</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/LAC_mdpi.png" alt="Clippers Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/LAC_mdpi.png" alt="Clippers" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>LAC</span>
+    </a>
+  </td>
+  <td>
+    <span>24</span>
+  </td>
+  <td>
+    <span>19</span>
+  </td>
+  <td>
+    <span>.558</span>
+  </td>
+  <td>
+    <span>5.5</span>
+  </td>
+  <td>
+    <span>17 - 13</span>
+  </td>
+  <td>
+    <span>7 - 1</span>
+  </td>
+  <td>
+    <span>14 - 8</span>
+  </td>
+  <td>
+    <span>10 - 11</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>L3</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/spurs">
+      <span>7</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/SAS_mdpi.png" alt="Spurs Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/SAS_mdpi.png" alt="Spurs" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>SAS</span>
+    </a>
+  </td>
+  <td>
+    <span>25</span>
+  </td>
+  <td>
+    <span>20</span>
+  </td>
+  <td>
+    <span>.556</span>
+  </td>
+  <td>
+    <span>5.5</span>
+  </td>
+  <td>
+    <span>18 - 14</span>
+  </td>
+  <td>
+    <span>4 - 5</span>
+  </td>
+  <td>
+    <span>18 - 6</span>
+  </td>
+  <td>
+    <span>7 - 14</span>
+  </td>
+  <td>
+    <span>6 - 4</span>
+  </td>
+  <td>
+    <span>L2</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/lakers">
+      <span>8</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/LAL_mdpi.png" alt="Lakers Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/LAL_mdpi.png" alt="Lakers" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>LAL</span>
+    </a>
+  </td>
+  <td>
+    <span>24</span>
+  </td>
+  <td>
+    <span>21</span>
+  </td>
+  <td>
+    <span>.533</span>
+  </td>
+  <td>
+    <span>6.5</span>
+  </td>
+  <td>
+    <span>16 - 14</span>
+  </td>
+  <td>
+    <span>5 - 2</span>
+  </td>
+  <td>
+    <span>15 - 9</span>
+  </td>
+  <td>
+    <span>9 - 12</span>
+  </td>
+  <td>
+    <span>4 - 6</span>
+  </td>
+  <td>
+    <span>W1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/jazz">
+      <span>9</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/UTA_mdpi.png" alt="Jazz Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/UTA_mdpi.png" alt="Jazz" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>UTA</span>
+    </a>
+  </td>
+  <td>
+    <span>24</span>
+  </td>
+  <td>
+    <span>21</span>
+  </td>
+  <td>
+    <span>.533</span>
+  </td>
+  <td>
+    <span>6.5</span>
+  </td>
+  <td>
+    <span>13 - 12</span>
+  </td>
+  <td>
+    <span>2 - 4</span>
+  </td>
+  <td>
+    <span>12 - 8</span>
+  </td>
+  <td>
+    <span>12 - 13</span>
+  </td>
+  <td>
+    <span>7 - 3</span>
+  </td>
+  <td>
+    <span>W4</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/kings">
+      <span>10</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/SAC_mdpi.png" alt="Kings Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/SAC_mdpi.png" alt="Kings" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>SAC</span>
+    </a>
+  </td>
+  <td>
+    <span>23</span>
+  </td>
+  <td>
+    <span>21</span>
+  </td>
+  <td>
+    <span>.523</span>
+  </td>
+  <td>
+    <span>7</span>
+  </td>
+  <td>
+    <span>13 - 18</span>
+  </td>
+  <td>
+    <span>2 - 8</span>
+  </td>
+  <td>
+    <span>14 - 10</span>
+  </td>
+  <td>
+    <span>9 - 11</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>W3</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/timberwolves">
+      <span>11</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MIN_mdpi.png" alt="Timberwolves Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MIN_mdpi.png" alt="Timberwolves" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>MIN</span>
+    </a>
+  </td>
+  <td>
+    <span>21</span>
+  </td>
+  <td>
+    <span>23</span>
+  </td>
+  <td>
+    <span>.477</span>
+  </td>
+  <td>
+    <span>9</span>
+  </td>
+  <td>
+    <span>11 - 16</span>
+  </td>
+  <td>
+    <span>4 - 3</span>
+  </td>
+  <td>
+    <span>15 - 7</span>
+  </td>
+  <td>
+    <span>6 - 16</span>
+  </td>
+  <td>
+    <span>5 - 5</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/pelicans">
+      <span>12</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/NOP_mdpi.png" alt="Pelicans Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/NOP_mdpi.png" alt="Pelicans" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>NOP</span>
+    </a>
+  </td>
+  <td>
+    <span>21</span>
+  </td>
+  <td>
+    <span>23</span>
+  </td>
+  <td>
+    <span>.477</span>
+  </td>
+  <td>
+    <span>9</span>
+  </td>
+  <td>
+    <span>12 - 14</span>
+  </td>
+  <td>
+    <span>5 - 4</span>
+  </td>
+  <td>
+    <span>15 - 6</span>
+  </td>
+  <td>
+    <span>6 - 17</span>
+  </td>
+  <td>
+    <span>6 - 4</span>
+  </td>
+  <td>
+    <span>W1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/mavericks">
+      <span>13</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/DAL_mdpi.png" alt="Mavericks Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/DAL_mdpi.png" alt="Mavericks" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>DAL</span>
+    </a>
+  </td>
+  <td>
+    <span>20</span>
+  </td>
+  <td>
+    <span>23</span>
+  </td>
+  <td>
+    <span>.465</span>
+  </td>
+  <td>
+    <span>9.5</span>
+  </td>
+  <td>
+    <span>12 - 18</span>
+  </td>
+  <td>
+    <span>3 - 4</span>
+  </td>
+  <td>
+    <span>16 - 5</span>
+  </td>
+  <td>
+    <span>4 - 18</span>
+  </td>
+  <td>
+    <span>4 - 6</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/grizzlies">
+      <span>14</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MEM_mdpi.png" alt="Grizzlies Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/MEM_mdpi.png" alt="Grizzlies" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>MEM</span>
+    </a>
+  </td>
+  <td>
+    <span>19</span>
+  </td>
+  <td>
+    <span>24</span>
+  </td>
+  <td>
+    <span>.442</span>
+  </td>
+  <td>
+    <span>10.5</span>
+  </td>
+  <td>
+    <span>13 - 15</span>
+  </td>
+  <td>
+    <span>4 - 5</span>
+  </td>
+  <td>
+    <span>11 - 9</span>
+  </td>
+  <td>
+    <span>8 - 15</span>
+  </td>
+  <td>
+    <span>2 - 8</span>
+  </td>
+  <td>
+    <span>L2</span>
+  </td>
+</tr>
+              
+                <tr>
+  <td class="fixed-table-col team">
+    <a href="//nba.com/teams/suns">
+      <span>15</span>
+      <amp-img src="//cdn.nba.net/assets/logos/teams/app/primary/android/PHX_mdpi.png" alt="Suns Logo" height="25" width="25">
+        <noscript>
+          <img src="//cdn.nba.net/assets/logos/teams/app/primary/android/PHX_mdpi.png" alt="Suns" height="25" width="25"/>
+        </noscript>
+      </amp-img>
+
+      <span>PHX</span>
+    </a>
+  </td>
+  <td>
+    <span>11</span>
+  </td>
+  <td>
+    <span>34</span>
+  </td>
+  <td>
+    <span>.244</span>
+  </td>
+  <td>
+    <span>19.5</span>
+  </td>
+  <td>
+    <span>7 - 20</span>
+  </td>
+  <td>
+    <span>1 - 8</span>
+  </td>
+  <td>
+    <span>7 - 17</span>
+  </td>
+  <td>
+    <span>4 - 17</span>
+  </td>
+  <td>
+    <span>2 - 8</span>
+  </td>
+  <td>
+    <span>L1</span>
+  </td>
+</tr>
+              </tbody>
+          </table>
+        
+        
+        
+        
+
+      </div>
+    
+  
+
+  <ul class="legend">
+    <li>* - Clinched Playoff Berth</li>
+  </div>
+
+</div>
+
+
+    
+    
+
+    <div>
+      <section id="block-homepagefooter" class="block-homepagefooter">
+        <div>
+          <hr>
+          <p>Copyright © <em>2017</em>&nbsp;NBA Media Ventures, LLC. All rights reserved.</p><p><a href="http://www.nba.com/news/privacy_policy.html">Privacy Policy</a> | <a href="http://www.nba.com/closed_captioning">Accessibility and Closed Caption</a> | <a href="http://www.nba.com/news/termsofuse">Terms of Use</a> | <a class="nbaAdChoices" href="http://preferences-mgr.truste.com/?pid=turnermedia01&aid=turnermedia01&type=turner_pop" target="_blank">AdChoices</a> </p><p>NBA.com is part of Turner Sports Digital, part of the Turner Sports &amp; Entertainment Digital Network.</p><p></p><p><amp-img alt="Turner Broadcasting System, Inc. A Time Warner Company." src="//i.cdn.turner.com/nba/nba/footer/turner_logo_200x35.png" width="75" height="14"></amp-img></p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+
+

@@ -1,0 +1,19 @@
+body {
+    background: black;
+  }
+
+  body #main {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    padding-bottom: 50px;
+  }
+
+  body #main .textview {
+    width: 90%;
+    max-width: 90%;
+    min-height: 30%;
+    margin: auto;
+  }
